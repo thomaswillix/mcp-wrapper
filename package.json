@@ -1,0 +1,13 @@
+{
+  "name": "mcp-ws-wrapper",
+  "version": "1.0.0",
+  "description": "WebSocket wrapper for MCP streamable-http server",
+  "type": "module",
+  "scripts": {
+    "start": "node wrapper.js",
+    "start:dev": "WRAPPER_LOG=1 node wrapper.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
